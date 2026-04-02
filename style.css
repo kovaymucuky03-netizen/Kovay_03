@@ -270,6 +270,10 @@ footer {
 
 /* ===== MOBILE VERSION ===== */
 @media (max-width: 768px) {
+  .menu-overlay {
+    background: rgba(0,0,0,0.0); /* было 0.7 → стало мягче */
+  }
+}
 
     body {
     background: url('bg-mobile.png') no-repeat center center;
