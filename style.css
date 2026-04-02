@@ -64,6 +64,11 @@ body {
   padding: 8px 12px;
   border: 1px solid #333;
   transition: 0.3s;
+
+  background: none;      /* ❌ убрали фон */
+  border: none;          /* ❌ убрали рамку */
+  padding: 0;            /* ❌ убрали отступы */
+  
 }
 
 .burger:hover {
