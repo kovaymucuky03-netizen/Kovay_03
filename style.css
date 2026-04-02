@@ -300,10 +300,11 @@ footer {
 }
 }
 
-/* фон по умолчанию (ПК) */
+/* ПК версия */
 body {
-  background: url('bg.png') no-repeat center center fixed;
+  background: url('bg.png') no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 /* 📱 мобильный фон */
