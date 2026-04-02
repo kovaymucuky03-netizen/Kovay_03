@@ -271,7 +271,7 @@ footer {
 /* ===== MOBILE VERSION ===== */
 @media (max-width: 768px) {
   .menu-overlay {
-    background: rgba(0,0,0,0.0); /* было 0.7 → стало мягче */
+    display: none;
   }
 }
 
