@@ -349,3 +349,34 @@ footer {
   }
 
 }
+
+@media (max-width: 768px) {
+
+  body {
+    background: none !important;
+  }
+
+  /* сам фон */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+
+    background: url('bg-mobile.png') no-repeat center center;
+    background-size: cover;
+
+    z-index: -2;
+  }
+
+  /* 🔥 затемнение ТОЛЬКО фона */
+  body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.35); /* ← регулируй тут */
+    
+    z-index: -1;
+  }
+
+}
